@@ -1,0 +1,35 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+comp:
+    resource: "@CompBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+examen:
+    resource: "@ExamenBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+
+
+rh:
+    resource: "@RHBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+emploi:
+    resource: "@EmploiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+eleve:
+    resource: "@EleveBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+
